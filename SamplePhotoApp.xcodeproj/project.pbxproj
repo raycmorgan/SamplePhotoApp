@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710B032B15657F1D00ADAA9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B032A15657F1D00ADAA9B /* UIKit.framework */; };
+		710B032D15657F1D00ADAA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B032C15657F1D00ADAA9B /* Foundation.framework */; };
+		710B032F15657F1D00ADAA9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B032E15657F1D00ADAA9B /* CoreGraphics.framework */; };
+		710B033115657F1D00ADAA9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B033015657F1D00ADAA9B /* CoreData.framework */; };
+		710B033715657F1D00ADAA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 710B033515657F1D00ADAA9B /* InfoPlist.strings */; };
+		710B033915657F1D00ADAA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B033815657F1D00ADAA9B /* main.m */; };
+		710B033D15657F1D00ADAA9B /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B033C15657F1D00ADAA9B /* RMAppDelegate.m */; };
+		710B034015657F1D00ADAA9B /* SamplePhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 710B033E15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodeld */; };
+		710B034B156580DF00ADAA9B /* RMPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B0349156580DF00ADAA9B /* RMPhotoViewController.m */; };
+		710B034C156580DF00ADAA9B /* RMPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710B034A156580DF00ADAA9B /* RMPhotoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		710B032615657F1D00ADAA9B /* SamplePhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710B032A15657F1D00ADAA9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		710B032C15657F1D00ADAA9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		710B032E15657F1D00ADAA9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		710B033015657F1D00ADAA9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		710B033415657F1D00ADAA9B /* SamplePhotoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplePhotoApp-Info.plist"; sourceTree = "<group>"; };
+		710B033615657F1D00ADAA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		710B033815657F1D00ADAA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		710B033A15657F1D00ADAA9B /* SamplePhotoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamplePhotoApp-Prefix.pch"; sourceTree = "<group>"; };
+		710B033B15657F1D00ADAA9B /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
+		710B033C15657F1D00ADAA9B /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
+		710B033F15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SamplePhotoApp.xcdatamodel; sourceTree = "<group>"; };
+		710B0348156580DF00ADAA9B /* RMPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPhotoViewController.h; sourceTree = "<group>"; };
+		710B0349156580DF00ADAA9B /* RMPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPhotoViewController.m; sourceTree = "<group>"; };
+		710B034A156580DF00ADAA9B /* RMPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMPhotoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710B032315657F1D00ADAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710B032B15657F1D00ADAA9B /* UIKit.framework in Frameworks */,
+				710B032D15657F1D00ADAA9B /* Foundation.framework in Frameworks */,
+				710B032F15657F1D00ADAA9B /* CoreGraphics.framework in Frameworks */,
+				710B033115657F1D00ADAA9B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710B031B15657F1D00ADAA9B = {
+			isa = PBXGroup;
+			children = (
+				710B033215657F1D00ADAA9B /* SamplePhotoApp */,
+				710B032915657F1D00ADAA9B /* Frameworks */,
+				710B032715657F1D00ADAA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710B032715657F1D00ADAA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710B032615657F1D00ADAA9B /* SamplePhotoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710B032915657F1D00ADAA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710B032A15657F1D00ADAA9B /* UIKit.framework */,
+				710B032C15657F1D00ADAA9B /* Foundation.framework */,
+				710B032E15657F1D00ADAA9B /* CoreGraphics.framework */,
+				710B033015657F1D00ADAA9B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		710B033215657F1D00ADAA9B /* SamplePhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				710B033B15657F1D00ADAA9B /* RMAppDelegate.h */,
+				710B033C15657F1D00ADAA9B /* RMAppDelegate.m */,
+				710B033E15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodeld */,
+				710B033315657F1D00ADAA9B /* Supporting Files */,
+				710B0348156580DF00ADAA9B /* RMPhotoViewController.h */,
+				710B0349156580DF00ADAA9B /* RMPhotoViewController.m */,
+				710B034A156580DF00ADAA9B /* RMPhotoViewController.xib */,
+			);
+			path = SamplePhotoApp;
+			sourceTree = "<group>";
+		};
+		710B033315657F1D00ADAA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710B033415657F1D00ADAA9B /* SamplePhotoApp-Info.plist */,
+				710B033515657F1D00ADAA9B /* InfoPlist.strings */,
+				710B033815657F1D00ADAA9B /* main.m */,
+				710B033A15657F1D00ADAA9B /* SamplePhotoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710B032515657F1D00ADAA9B /* SamplePhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710B034315657F1D00ADAA9B /* Build configuration list for PBXNativeTarget "SamplePhotoApp" */;
+			buildPhases = (
+				710B032215657F1D00ADAA9B /* Sources */,
+				710B032315657F1D00ADAA9B /* Frameworks */,
+				710B032415657F1D00ADAA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamplePhotoApp;
+			productName = SamplePhotoApp;
+			productReference = 710B032615657F1D00ADAA9B /* SamplePhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710B031D15657F1D00ADAA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Rumgr Inc";
+			};
+			buildConfigurationList = 710B032015657F1D00ADAA9B /* Build configuration list for PBXProject "SamplePhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 710B031B15657F1D00ADAA9B;
+			productRefGroup = 710B032715657F1D00ADAA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710B032515657F1D00ADAA9B /* SamplePhotoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710B032415657F1D00ADAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710B033715657F1D00ADAA9B /* InfoPlist.strings in Resources */,
+				710B034C156580DF00ADAA9B /* RMPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710B032215657F1D00ADAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710B033915657F1D00ADAA9B /* main.m in Sources */,
+				710B033D15657F1D00ADAA9B /* RMAppDelegate.m in Sources */,
+				710B034015657F1D00ADAA9B /* SamplePhotoApp.xcdatamodeld in Sources */,
+				710B034B156580DF00ADAA9B /* RMPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		710B033515657F1D00ADAA9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710B033615657F1D00ADAA9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710B034115657F1D00ADAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		710B034215657F1D00ADAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710B034415657F1D00ADAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePhotoApp/SamplePhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "SamplePhotoApp/SamplePhotoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		710B034515657F1D00ADAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePhotoApp/SamplePhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "SamplePhotoApp/SamplePhotoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710B032015657F1D00ADAA9B /* Build configuration list for PBXProject "SamplePhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710B034115657F1D00ADAA9B /* Debug */,
+				710B034215657F1D00ADAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710B034315657F1D00ADAA9B /* Build configuration list for PBXNativeTarget "SamplePhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710B034415657F1D00ADAA9B /* Debug */,
+				710B034515657F1D00ADAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		710B033E15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				710B033F15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodel */,
+			);
+			currentVersion = 710B033F15657F1D00ADAA9B /* SamplePhotoApp.xcdatamodel */;
+			path = SamplePhotoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 710B031D15657F1D00ADAA9B /* Project object */;
+}

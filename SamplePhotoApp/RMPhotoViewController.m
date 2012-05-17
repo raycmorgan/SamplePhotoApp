@@ -26,6 +26,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    // Reload old data into the imageView
+    self.imageView.image = [UIImage imageWithContentsOfFile:[self filePath]];
 }
 
 - (void)viewDidUnload
@@ -39,6 +42,14 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+#pragma mark - File Information
+
+- (NSString *)filePath
+{
+    NSURL *folder = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    return [NSString stringWithFormat:@"%@/foo.jpg", [folder path]];
+}
 
 #pragma mark - UI Events
 
@@ -58,6 +69,10 @@
     UIImage *originalImage = [info objectForKey:UIImagePickerControllerOriginalImage];
     self.imageView.image = originalImage;
     
+    // Save the image to disk
+    NSData *jpeg = UIImageJPEGRepresentation(originalImage, 1);
+    [[NSFileManager defaultManager] createFileAtPath:[self filePath] contents:jpeg attributes:nil];
+
     [self dismissModalViewControllerAnimated:YES];
 }
 
